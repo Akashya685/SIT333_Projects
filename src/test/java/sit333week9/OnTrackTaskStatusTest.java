@@ -1,5 +1,5 @@
 package sit333week9;
-//CI failing test run (Fail )
+//Passing )
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -11,7 +11,7 @@ public class OnTrackTaskStatusTest {
 
         String result = checker.getStatus("s224597443", "1.1P");
 
-        Assert.assertEquals("Wrong", result);
+        Assert.assertEquals("Working On It", result);
     }
 
     @Test
