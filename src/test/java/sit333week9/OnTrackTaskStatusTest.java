@@ -11,7 +11,7 @@ public class OnTrackTaskStatusTest {
 
         String result = checker.getStatus("s224597443", "1.1P");
 
-        Assert.assertEquals("Wrong", result);
+        Assert.assertEquals("Working On It", result);
     }
 
     @Test
